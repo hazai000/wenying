@@ -50,7 +50,7 @@ if (!state) {
     triggered = true;
     openPopup();
   };
-  setTimeout(trigger, 8000);
+  setTimeout(trigger, 4000);
   const onScroll = () => {
     const products = document.getElementById("products");
     if (!products) return;
